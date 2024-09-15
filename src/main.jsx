@@ -13,6 +13,9 @@ import PromesasEnCadena from './functions/PromesasEnCadena.jsx'
 import PromesasAll from './functions/PromesasAll.jsx'
 import PromesasRace from './functions/PromesasRace.jsx'
 import OrigenFetch from './functions/OrigenFetch.jsx'
+import FetchPost from './functions/FetchPost.jsx';
+import FetchPut from './functions/FetchPut.jsx';
+import MyDataTypes from './methods/MyDataTypes.jsx';
 
 createRoot(document.getElementById('root')).render(
   <StrictMode>
@@ -21,6 +24,12 @@ createRoot(document.getElementById('root')).render(
     {/* <PromesasEnCadena  /> */}
     {/* <PromesasAll/> */}
     {/* <PromesasRace/> */}
-    <OrigenFetch/>
+    {/* <OrigenFetch/> */}
+
+    <FetchPost/>
+    <FetchPut/>
+
+
+    {/* <MyDataTypes /> */}
   </StrictMode>,
 );
