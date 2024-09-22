@@ -15,7 +15,13 @@ import PromesasRace from './functions/PromesasRace.jsx'
 import OrigenFetch from './functions/OrigenFetch.jsx'
 import FetchPost from './functions/FetchPost.jsx';
 import FetchPut from './functions/FetchPut.jsx';
+
 import MyDataTypes from './methods/MyDataTypes.jsx';
+import MyObjects from './methods/MyObjects.jsx'; 
+import { Contador } from './components/Contador.jsx';
+import { ContadorHook } from './components/ContadorHook.jsx';
+import { Funciones } from './components/funciones.jsx';
+import { Formularios } from './components/Formularios.jsx';
 
 createRoot(document.getElementById('root')).render(
   <StrictMode>
@@ -26,10 +32,17 @@ createRoot(document.getElementById('root')).render(
     {/* <PromesasRace/> */}
     {/* <OrigenFetch/> */}
 
-    <FetchPost/>
-    <FetchPut/>
+    {/* <FetchPost/> */}
+    {/* <FetchPut/> */}
 
 
+    {/* notas 4.x */}
     {/* <MyDataTypes /> */}
+    {/* <MyObjects /> */}
+    {/* <Contador /> */}
+    {/* <ContadorHook /> */}
+    {/* <Funciones/> */}
+    <Formularios />
+
   </StrictMode>,
 );
